@@ -141,7 +141,6 @@ export default {
                                                                                 console.log(resp);
                                                                                 if (resp.status == 200) {
                                                                                                 this.dataTable = resp.data;
-                                                                                                console.log( this.dataTable);
                                                                                                 this.pageCount = ( this.dataTable.length / 10);
                                                                                 } else {
                                                                                                 this.$store.state.Snack.show = true;
